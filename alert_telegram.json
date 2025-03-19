@@ -1,0 +1,6 @@
+{
+    "telegram_status": {
+        "main_storage": "telegram_not_sent",
+        "backup_storage": "telegram_not_sent"
+    }
+}

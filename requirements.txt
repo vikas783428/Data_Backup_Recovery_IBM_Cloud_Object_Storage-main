@@ -1,0 +1,8 @@
+telegram  
+python-telegram-bot
+watchdog  
+ibm-cloud-sdk-core
+ibm-cos-sdk
+ibm-platform-services
+ibm-platform-services
+ibm-cos-sdk-s3transfer

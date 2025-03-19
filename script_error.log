@@ -1,0 +1,410 @@
+2025-02-15 21:27:37,695 - DEBUG - Using proactor: IocpProactor
+2025-02-15 21:27:37,700 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 21:27:37,706 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 21:27:38,348 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 21:27:38,350 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 21:27:39,029 - INFO - Starting script execution and monitoring...
+2025-02-15 21:27:39,030 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 21:27:39,031 - INFO - Starting to run script: main_to_backup_10m.py
+2025-02-15 21:27:45,905 - INFO - Finished running script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 21:29:55,771 - DEBUG - Using proactor: IocpProactor
+2025-02-15 21:29:55,773 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 21:29:55,775 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 21:29:56,212 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 21:29:56,213 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 21:30:06,405 - DEBUG - Using proactor: IocpProactor
+2025-02-15 21:30:06,406 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 21:30:06,407 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 21:30:06,756 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 21:30:06,757 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 21:30:07,120 - DEBUG - Calling Bot API endpoint `sendMessage` with parameters `{'chat_id': ['1542494811'], 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 21:30:07,139 - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-15 21:30:09,341 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000126C48C1880>
+2025-02-15 21:30:09,341 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000126C53913D0> server_hostname='api.telegram.org' timeout=5.0
+2025-02-15 21:30:09,884 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000126C4C67230>
+2025-02-15 21:30:09,885 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-15 21:30:09,886 - DEBUG - send_request_headers.complete
+2025-02-15 21:30:09,886 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-15 21:30:09,887 - DEBUG - send_request_body.complete
+2025-02-15 21:30:09,887 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-15 21:30:10,049 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Sat, 15 Feb 2025 16:00:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'73'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-02-15 21:30:10,050 - INFO - HTTP Request: POST https://api.telegram.org/bot7739946874:AAGFDXuk7m4vvwhG7tpmWvkHgil2K28gAB8/sendMessage "HTTP/1.1 400 Bad Request"
+2025-02-15 21:30:10,051 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-15 21:30:10,051 - DEBUG - receive_response_body.complete
+2025-02-15 21:30:10,051 - DEBUG - response_closed.started
+2025-02-15 21:30:10,052 - DEBUG - response_closed.complete
+2025-02-15 21:33:15,512 - DEBUG - Using proactor: IocpProactor
+2025-02-15 21:33:15,853 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 21:33:15,856 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 21:33:16,288 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 21:33:16,289 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 21:33:16,796 - INFO - Starting script execution and monitoring...
+2025-02-15 21:33:16,797 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 21:33:16,798 - INFO - Starting to run script: main_to_backup_10m.py
+2025-02-15 21:35:24,972 - ERROR - Error running script main_to_backup_10m.py: Traceback (most recent call last):
+  File "D:\mahesh2003\mahesh intership\vtu 7sem intrship\cloud-IBM\project\Phase 3\test\main_to_backup_10m.py", line 82, in <module>
+    time.sleep(600)  # Wait for 10 minutes before running again
+    ^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-02-15 21:35:24,976 - INFO - Finished running script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 21:35:24,980 - INFO - Finished running script: main_to_backup_10m.py
+2025-02-15 22:15:48,679 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:15:48,785 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:15:48,785 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:15:49,710 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:15:49,713 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:15:51,252 - INFO - Starting script execution and monitoring...
+2025-02-15 22:15:51,267 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:15:51,270 - INFO - Starting to run script: main_to_backup_10m.py
+2025-02-15 22:15:54,730 - ERROR - Error running script auto_uplode_monitoring_backup_to_main.py: Traceback (most recent call last):
+  File "D:\mahesh2003\mahesh intership\vtu 7sem intrship\cloud-IBM\project\Phase 3\test\auto_uplode_monitoring_backup_to_main.py", line 28, in <module>
+    main_server_cos = ibm_boto3.client('s3',
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_boto3\__init__.py", line 97, in client
+    return _get_default_session().client(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_boto3\__init__.py", line 84, in _get_default_session
+    setup_default_session()
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_boto3\__init__.py", line 36, in setup_default_session
+    DEFAULT_SESSION = Session(**kwargs)
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_boto3\session.py", line 99, in __init__
+    self._session = ibm_botocore.session.get_session()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\session.py", line 1352, in get_session
+    return Session(env_vars)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\session.py", line 154, in __init__
+    self._register_components()
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\session.py", line 173, in _register_components
+    self._register_user_agent_creator()
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\session.py", line 269, in _register_user_agent_creator
+    uas = UserAgentString.from_environment()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\useragent.py", line 215, in from_environment
+    platform_name=platform.system(),
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 986, in system
+    return uname().system
+           ^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 922, in uname
+    machine = machine or _get_machine_win32()
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 775, in _get_machine_win32
+    [arch, *_] = _wmi_query('CPU', 'Architecture')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 327, in _wmi_query
+    data = _wmi.exec_query("SELECT {} FROM {}".format(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-02-15 22:15:54,732 - ERROR - Error running script main_to_backup_10m.py: Traceback (most recent call last):
+  File "D:\mahesh2003\mahesh intership\vtu 7sem intrship\cloud-IBM\project\Phase 3\test\main_to_backup_10m.py", line 27, in <module>
+    main_server_cos = ibm_boto3.client('s3',
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_boto3\__init__.py", line 97, in client
+    return _get_default_session().client(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_boto3\session.py", line 357, in client
+    return self._session.create_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\session.py", line 1023, in create_client
+    endpoint_resolver = self._get_internal_component('endpoint_resolver')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\session.py", line 845, in _get_internal_component
+    return self._internal_components.get_component(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\session.py", line 1223, in get_component
+    self._components[name] = factory()
+                             ^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\session.py", line 205, in create_default_resolver
+    endpoints, path = loader.load_data_with_path('endpoints')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\loaders.py", line 142, in _wrapper
+    data = func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\loaders.py", line 448, in load_data_with_path
+    found = self.file_loader.load_file(possible_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\loaders.py", line 194, in load_file
+    data = self._load_file(file_path + ext, open_method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\site-packages\ibm_botocore\loaders.py", line 181, in _load_file
+    return json.loads(payload, object_pairs_hook=OrderedDict)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 359, in loads
+    return cls(**kw).decode(s)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91988\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-02-15 22:15:54,732 - INFO - Finished running script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:15:54,749 - INFO - Finished running script: main_to_backup_10m.py
+2025-02-15 22:16:13,718 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:16:13,726 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:16:13,731 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:16:14,459 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:16:14,459 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:16:20,690 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:16:20,693 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:16:20,695 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:16:21,598 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:16:21,598 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:16:22,378 - DEBUG - Calling Bot API endpoint `sendMessage` with parameters `{'chat_id': ['1542494811'], 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:16:22,410 - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-15 22:16:22,574 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000020B28D76870>
+2025-02-15 22:16:22,574 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020B294C14D0> server_hostname='api.telegram.org' timeout=5.0
+2025-02-15 22:16:23,111 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000020B2928CDA0>
+2025-02-15 22:16:23,111 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-15 22:16:23,111 - DEBUG - send_request_headers.complete
+2025-02-15 22:16:23,111 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-15 22:16:23,111 - DEBUG - send_request_body.complete
+2025-02-15 22:16:23,111 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-15 22:16:24,155 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Sat, 15 Feb 2025 16:46:20 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'73'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-02-15 22:16:24,155 - INFO - HTTP Request: POST https://api.telegram.org/bot7739946874:AAGFDXuk7m4vvwhG7tpmWvkHgil2K28gAB8/sendMessage "HTTP/1.1 400 Bad Request"
+2025-02-15 22:16:24,155 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-15 22:16:24,157 - DEBUG - receive_response_body.complete
+2025-02-15 22:16:24,157 - DEBUG - response_closed.started
+2025-02-15 22:16:24,157 - DEBUG - response_closed.complete
+2025-02-15 22:18:51,466 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:29:22,554 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:29:22,554 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:29:22,563 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:29:23,334 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:29:23,336 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:29:28,981 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:29:28,981 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:29:28,981 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:29:29,315 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:29:29,316 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:29:29,669 - DEBUG - Calling Bot API endpoint `sendMessage` with parameters `{'chat_id': '1542494811', 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:29:29,685 - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-15 22:29:29,816 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002D5CA1685C0>
+2025-02-15 22:29:29,831 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002D5CA261350> server_hostname='api.telegram.org' timeout=5.0
+2025-02-15 22:29:30,292 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002D5C8B86540>
+2025-02-15 22:29:30,292 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-15 22:29:30,292 - DEBUG - send_request_headers.complete
+2025-02-15 22:29:30,292 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-15 22:29:30,292 - DEBUG - send_request_body.complete
+2025-02-15 22:29:30,292 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-15 22:29:30,641 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Sat, 15 Feb 2025 16:59:28 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'342'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-02-15 22:29:30,641 - INFO - HTTP Request: POST https://api.telegram.org/bot7739946874:AAGFDXuk7m4vvwhG7tpmWvkHgil2K28gAB8/sendMessage "HTTP/1.1 200 OK"
+2025-02-15 22:29:30,643 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-15 22:29:30,643 - DEBUG - receive_response_body.complete
+2025-02-15 22:29:30,643 - DEBUG - response_closed.started
+2025-02-15 22:29:30,643 - DEBUG - response_closed.complete
+2025-02-15 22:29:30,643 - DEBUG - Call to Bot API endpoint `sendMessage` finished with return value `{'message_id': 171, 'from': {'id': 7739946874, 'is_bot': True, 'first_name': 'IBM_Projecct_bot', 'username': 'IBMProjecctbot'}, 'chat': {'id': 1542494811, 'first_name': 'Mahesh A.V', 'username': 'mahesh72003', 'type': 'private'}, 'date': 1739638767, 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:29:30,649 - INFO - Starting script execution and monitoring...
+2025-02-15 22:29:30,651 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:29:40,324 - INFO - Finished running script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:35:04,798 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:35:04,798 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:35:04,798 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:35:05,140 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:35:05,140 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:35:10,585 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:35:10,587 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:35:10,587 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:35:11,257 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:35:11,258 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:35:12,201 - DEBUG - Calling Bot API endpoint `sendMessage` with parameters `{'chat_id': '1542494811', 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:35:12,210 - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-15 22:35:12,361 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000029C9C28CE30>
+2025-02-15 22:35:12,361 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000029C9C2814D0> server_hostname='api.telegram.org' timeout=5.0
+2025-02-15 22:35:12,690 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000029C9C263620>
+2025-02-15 22:35:12,690 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-15 22:35:12,690 - DEBUG - send_request_headers.complete
+2025-02-15 22:35:12,690 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-15 22:35:12,693 - DEBUG - send_request_body.complete
+2025-02-15 22:35:12,693 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-15 22:35:13,867 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Sat, 15 Feb 2025 17:05:10 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'342'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-02-15 22:35:13,870 - INFO - HTTP Request: POST https://api.telegram.org/bot7739946874:AAGFDXuk7m4vvwhG7tpmWvkHgil2K28gAB8/sendMessage "HTTP/1.1 200 OK"
+2025-02-15 22:35:13,872 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-15 22:35:13,872 - DEBUG - receive_response_body.complete
+2025-02-15 22:35:13,872 - DEBUG - response_closed.started
+2025-02-15 22:35:13,872 - DEBUG - response_closed.complete
+2025-02-15 22:35:13,874 - DEBUG - Call to Bot API endpoint `sendMessage` finished with return value `{'message_id': 172, 'from': {'id': 7739946874, 'is_bot': True, 'first_name': 'IBM_Projecct_bot', 'username': 'IBMProjecctbot'}, 'chat': {'id': 1542494811, 'first_name': 'Mahesh A.V', 'username': 'mahesh72003', 'type': 'private'}, 'date': 1739639110, 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:35:13,874 - INFO - Starting script execution and monitoring...
+2025-02-15 22:35:13,982 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:35:28,802 - INFO - Finished running script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:36:12,374 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:36:12,374 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:36:12,382 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:36:12,702 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:36:12,702 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:36:13,021 - INFO - Starting script execution and monitoring...
+2025-02-15 22:36:13,021 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:36:13,021 - INFO - Starting to run script: main_to_backup_10m.py
+2025-02-15 22:37:00,105 - ERROR - Error running script main_to_backup_10m.py: Traceback (most recent call last):
+  File "D:\mahesh2003\mahesh intership\vtu 7sem intrship\cloud-IBM\project\Phase 3\test\main_to_backup_10m.py", line 82, in <module>
+    time.sleep(600)  # Wait for 10 minutes before running again
+    ^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-02-15 22:37:00,105 - INFO - Finished running script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:37:00,105 - INFO - Finished running script: main_to_backup_10m.py
+2025-02-15 22:44:00,836 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:44:00,836 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:44:00,836 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:44:01,310 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:44:01,312 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:44:01,816 - INFO - Starting script execution and monitoring...
+2025-02-15 22:44:01,817 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:44:01,820 - INFO - Starting to run script: main_to_backup_10m.py
+2025-02-15 22:44:11,232 - ERROR - Error running script main_to_backup_10m.py: Traceback (most recent call last):
+  File "D:\mahesh2003\mahesh intership\vtu 7sem intrship\cloud-IBM\project\Phase 3\test\main_to_backup_10m.py", line 82, in <module>
+    time.sleep(600)  # Wait for 10 minutes before running again
+    ^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-02-15 22:44:11,239 - INFO - Finished running script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:44:11,241 - INFO - Finished running script: main_to_backup_10m.py
+2025-02-15 22:44:30,164 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:44:30,181 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:44:30,186 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:44:30,798 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:44:30,800 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:44:36,327 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:44:36,327 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:44:36,327 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:44:36,651 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:44:36,651 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:44:36,995 - DEBUG - Calling Bot API endpoint `sendMessage` with parameters `{'chat_id': '1542494811', 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:44:36,995 - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-15 22:44:37,145 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000263826A0EC0>
+2025-02-15 22:44:37,145 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000026382731450> server_hostname='api.telegram.org' timeout=5.0
+2025-02-15 22:44:37,296 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000002638273D610>
+2025-02-15 22:44:37,296 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-15 22:44:37,296 - DEBUG - send_request_headers.complete
+2025-02-15 22:44:37,311 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-15 22:44:37,311 - DEBUG - send_request_body.complete
+2025-02-15 22:44:37,312 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-15 22:44:37,657 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Sat, 15 Feb 2025 17:14:35 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'342'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-02-15 22:44:37,657 - INFO - HTTP Request: POST https://api.telegram.org/bot7739946874:AAGFDXuk7m4vvwhG7tpmWvkHgil2K28gAB8/sendMessage "HTTP/1.1 200 OK"
+2025-02-15 22:44:37,657 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-15 22:44:37,657 - DEBUG - receive_response_body.complete
+2025-02-15 22:44:37,657 - DEBUG - response_closed.started
+2025-02-15 22:44:37,657 - DEBUG - response_closed.complete
+2025-02-15 22:44:37,657 - DEBUG - Call to Bot API endpoint `sendMessage` finished with return value `{'message_id': 173, 'from': {'id': 7739946874, 'is_bot': True, 'first_name': 'IBM_Projecct_bot', 'username': 'IBMProjecctbot'}, 'chat': {'id': 1542494811, 'first_name': 'Mahesh A.V', 'username': 'mahesh72003', 'type': 'private'}, 'date': 1739639674, 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:44:37,657 - INFO - Starting script execution and monitoring...
+2025-02-15 22:44:37,657 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:44:50,960 - INFO - Finished running script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:45:28,839 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:45:28,839 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:45:28,839 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:45:29,178 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:45:29,178 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:45:29,517 - INFO - Starting script execution and monitoring...
+2025-02-15 22:45:29,517 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:45:29,519 - INFO - Starting to run script: main_to_backup_10m.py
+2025-02-15 22:46:00,510 - ERROR - Error running script main_to_backup_10m.py: Traceback (most recent call last):
+  File "D:\mahesh2003\mahesh intership\vtu 7sem intrship\cloud-IBM\project\Phase 3\test\main_to_backup_10m.py", line 82, in <module>
+    time.sleep(600)  # Wait for 10 minutes before running again
+    ^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-02-15 22:46:00,510 - INFO - Finished running script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:46:00,510 - INFO - Finished running script: main_to_backup_10m.py
+2025-02-15 22:49:30,807 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:49:30,807 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:49:30,807 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:49:31,241 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:49:31,241 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:49:31,745 - INFO - Starting script execution and monitoring...
+2025-02-15 22:49:31,747 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:49:31,748 - INFO - Starting to run script: main_to_backup_10m.py
+2025-02-15 22:49:37,749 - INFO - Finished running script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:50:12,029 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:50:12,033 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:50:12,042 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:50:14,298 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:50:14,302 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:50:21,144 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:50:21,146 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:50:21,147 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:50:21,856 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:50:21,857 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:50:22,571 - DEBUG - Calling Bot API endpoint `sendMessage` with parameters `{'chat_id': '1542494811', 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:50:22,583 - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-15 22:50:23,737 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000024B2A9E0DA0>
+2025-02-15 22:50:23,737 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000024B2ACA1450> server_hostname='api.telegram.org' timeout=5.0
+2025-02-15 22:50:25,692 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000024B2A30B560>
+2025-02-15 22:50:25,692 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-15 22:50:25,692 - DEBUG - send_request_headers.complete
+2025-02-15 22:50:25,692 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-15 22:50:25,692 - DEBUG - send_request_body.complete
+2025-02-15 22:50:25,692 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-15 22:50:26,174 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Sat, 15 Feb 2025 17:20:23 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'342'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-02-15 22:50:26,190 - INFO - HTTP Request: POST https://api.telegram.org/bot7739946874:AAGFDXuk7m4vvwhG7tpmWvkHgil2K28gAB8/sendMessage "HTTP/1.1 200 OK"
+2025-02-15 22:50:26,190 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-15 22:50:26,190 - DEBUG - receive_response_body.complete
+2025-02-15 22:50:26,203 - DEBUG - response_closed.started
+2025-02-15 22:50:26,203 - DEBUG - response_closed.complete
+2025-02-15 22:50:26,203 - DEBUG - Call to Bot API endpoint `sendMessage` finished with return value `{'message_id': 174, 'from': {'id': 7739946874, 'is_bot': True, 'first_name': 'IBM_Projecct_bot', 'username': 'IBMProjecctbot'}, 'chat': {'id': 1542494811, 'first_name': 'Mahesh A.V', 'username': 'mahesh72003', 'type': 'private'}, 'date': 1739640023, 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:50:26,206 - INFO - Starting script execution and monitoring...
+2025-02-15 22:50:26,206 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:50:56,397 - INFO - Finished running script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:54:30,300 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:54:30,399 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:54:30,415 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:54:30,764 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:54:30,764 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:54:35,951 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:54:35,951 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:54:35,951 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:54:36,283 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:54:36,283 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:54:36,610 - DEBUG - Calling Bot API endpoint `sendMessage` with parameters `{'chat_id': '1542494811', 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:54:36,635 - DEBUG - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-15 22:54:38,821 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA443E8440>
+2025-02-15 22:54:38,821 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001EA44E714D0> server_hostname='api.telegram.org' timeout=5.0
+2025-02-15 22:54:39,678 - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EA44DE3800>
+2025-02-15 22:54:39,685 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-15 22:54:39,685 - DEBUG - send_request_headers.complete
+2025-02-15 22:54:39,685 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-15 22:54:39,685 - DEBUG - send_request_body.complete
+2025-02-15 22:54:39,685 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-15 22:54:40,033 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Sat, 15 Feb 2025 17:24:37 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'342'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-02-15 22:54:40,033 - INFO - HTTP Request: POST https://api.telegram.org/bot7739946874:AAGFDXuk7m4vvwhG7tpmWvkHgil2K28gAB8/sendMessage "HTTP/1.1 200 OK"
+2025-02-15 22:54:40,033 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-15 22:54:40,039 - DEBUG - receive_response_body.complete
+2025-02-15 22:54:40,039 - DEBUG - response_closed.started
+2025-02-15 22:54:40,039 - DEBUG - response_closed.complete
+2025-02-15 22:54:40,039 - DEBUG - Call to Bot API endpoint `sendMessage` finished with return value `{'message_id': 175, 'from': {'id': 7739946874, 'is_bot': True, 'first_name': 'IBM_Projecct_bot', 'username': 'IBMProjecctbot'}, 'chat': {'id': 1542494811, 'first_name': 'Mahesh A.V', 'username': 'mahesh72003', 'type': 'private'}, 'date': 1739640277, 'text': 'WARNING: Main storage is unavailable. Uploads will be redirected to backup storage.'}`
+2025-02-15 22:54:40,039 - INFO - Starting script execution and monitoring...
+2025-02-15 22:54:40,039 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:54:45,809 - INFO - Finished running script: auto_uplode_monitoring_backup_to_backup_stroage.py
+2025-02-15 22:55:06,031 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:55:06,031 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:55:06,031 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:55:06,356 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:55:06,356 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:56:30,904 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:56:30,904 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:56:30,904 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:56:31,256 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:56:31,256 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:58:22,625 - DEBUG - Using proactor: IocpProactor
+2025-02-15 22:58:22,625 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:58:22,625 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:58:22,947 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-02-15 22:58:22,947 - DEBUG - load_verify_locations cafile='C:\\Users\\91988\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\certifi\\cacert.pem'
+2025-02-15 22:58:23,282 - INFO - Starting script execution and monitoring...
+2025-02-15 22:58:23,282 - INFO - Starting to run script: backup_to main.py
+2025-02-15 22:58:23,282 - INFO - Starting to run script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:58:23,294 - INFO - Starting to run script: main_to_backup_10m.py
+2025-02-15 22:58:31,033 - INFO - Finished running script: backup_to main.py
+2025-02-15 22:58:50,745 - ERROR - Error running script main_to_backup_10m.py: Traceback (most recent call last):
+  File "D:\mahesh2003\mahesh intership\vtu 7sem intrship\cloud-IBM\project\Phase 3\test\main_to_backup_10m.py", line 82, in <module>
+    time.sleep(600)  # Wait for 10 minutes before running again
+    ^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+2025-02-15 22:58:50,745 - INFO - Finished running script: auto_uplode_monitoring_backup_to_main.py
+2025-02-15 22:58:50,749 - INFO - Finished running script: main_to_backup_10m.py
