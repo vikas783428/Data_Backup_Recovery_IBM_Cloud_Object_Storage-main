@@ -33,7 +33,7 @@ This project is a cloud storage monitoring and backup automation system. It cont
 
 1. Clone the repository:
    ```sh
-   git clone 
+   git clone https://github.com/vikas783428/Data_Backup_Recovery_IBM_Cloud_Object_Storage-main
    cd cloud-storage-monitor
    ```
 2. Install dependencies:
